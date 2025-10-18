@@ -92,7 +92,7 @@ fn parse_args(args: Vec<String>) -> Result<Config, ()> {
                     'f' => cfg.show_filenames = true,
                     'c' => cfg.colored = true,
                     'h' => cfg.help = true,
-                    '-' => { /* allow --help handled above */ }
+                    _ => return Err(()),
                 }
             }
         } else {

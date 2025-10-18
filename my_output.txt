@@ -1,0 +1,58 @@
+================================================
+Test case 1: Display help information...
+------------------------------------------------
+Usage: grep [OPTIONS] <pattern> <files...>
+
+Options:
+-i                Case-insensitive search
+-n                Print line numbers
+-v                Invert match (exclude lines that match the pattern)
+-r                Recursive directory search
+-f                Print filenames
+-c                Enable colored output
+-h, --help        Show help information
+================================================
+Test case 2: Basic Search...
+------------------------------------------------
+## Search Utility
+================================================
+Test case 3: Basic Search with multiple files (a list of files)...
+------------------------------------------------
+## Search Utility
+## Search Utility
+================================================
+Test case 4: Basic Search with multiple files (wildcard characters)...
+------------------------------------------------
+## Search Utility
+## Search Utility
+================================================
+Test case 5: Case-insensitive search...
+------------------------------------------------
+## Search Utility
+In this programming assignment, you are expected to implement a command-line utility that
+================================================
+Test case 6: Print line numbers along with matching lines...
+------------------------------------------------
+1: ## Search Utility
+================================================
+Test case 7: Invert match (print lines that do not match the pattern)...
+------------------------------------------------
+In this programming assignment, you are expected to implement a command-line utility that
+searches for a specific pattern in one or multiple files, similar in spirit to the UNIX
+`grep` command.
+================================================
+Test case 8: Recursive search (search in subdirectories)...
+------------------------------------------------
+## Search Utility
+## Search Utility
+================================================
+Test case 9: Print filenames along with matching lines...
+------------------------------------------------
+tests/recursive/grep.md: ## Search Utility
+tests/grep.md: ## Search Utility
+================================================
+Test case 10: Produce colored output...
+------------------------------------------------
+tests/recursive/grep.md: ## Search Utility
+tests/grep.md: ## Search Utility
+================================================
